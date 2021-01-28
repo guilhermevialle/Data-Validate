@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.interface {
+  width: 25%;
+  height: 40vh;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  border: none;
+  opacity: 0;
+  -webkit-transform: translateX(400px);
+          transform: translateX(400px);
+}
+
+.input-dados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input-dados input {
+  margin-bottom: 30px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.input-dados input::-webkit-input-placeholder {
+  opacity: 0.7;
+}
+
+.input-dados input:-ms-input-placeholder {
+  opacity: 0.7;
+}
+
+.input-dados input::-ms-input-placeholder {
+  opacity: 0.7;
+}
+
+.input-dados input::placeholder {
+  opacity: 0.7;
+}
+
+.input-dados input:focus {
+  background-color: transparent;
+}
+
+.senha-invalida {
+  -webkit-animation-name: vibrar;
+          animation-name: vibrar;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+
+#verificar {
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  color: #333;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+}
+
+#verificar:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.msg {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: red;
+  margin: 5px 0;
+}
+
+@-webkit-keyframes vibrar {
+  0% {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  50% {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes vibrar {
+  0% {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  50% {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+/*# sourceMappingURL=file.css.map */
