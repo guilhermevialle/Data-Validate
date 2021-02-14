@@ -1,5 +1,8 @@
 
 ## Data Validator With JavaScript (Regex)
+
+> #### by guilhermevialle
+
 ### Features
 
 - Simple
