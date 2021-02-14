@@ -13,8 +13,9 @@
 ### Screenshots
 ![](https://github.com/guilhermevialle/Data-Validate/blob/main/Validate%20Data/Screenshots/capture.PNG)
 
+- #### If you try unreal data:
 ![](https://github.com/guilhermevialle/Data-Validate/blob/main/Validate%20Data/Screenshots/capture2.PNG)
-
+- #### Valid data:
 ![](https://github.com/guilhermevialle/Data-Validate/blob/main/Validate%20Data/Screenshots/capture3.PNG)
 
 ------------
