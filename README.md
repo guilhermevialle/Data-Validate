@@ -10,7 +10,7 @@
 - Minimalist
 - Functional for any cases
 
-### Screenshots
+### Preview
 - #### Interface
 ![](https://github.com/guilhermevialle/Data-Validate/blob/main/Validate%20Data/Screenshots/capture.PNG)
 
