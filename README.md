@@ -10,13 +10,15 @@
 - Functional
 
 ### Preview
+
 - #### Interface
-![](https://github.com/guilhermevialle/Data-Validate/blob/main/Validate%20Data/Screenshots/capture.PNG)
+<img src="https://github.com/guilhermevialle/Data-Validate/blob/main/Validate%20Data/Screenshots/capture.PNG" width="360px">
 
 - #### If you try unreal data:
-![](https://github.com/guilhermevialle/Data-Validate/blob/main/Validate%20Data/Screenshots/capture2.PNG)
+<img src="https://github.com/guilhermevialle/Data-Validate/blob/main/Validate%20Data/Screenshots/capture2.PNG" width="360px">
+
 - #### Valid data:
-![](https://github.com/guilhermevialle/Data-Validate/blob/main/Validate%20Data/Screenshots/capture3.PNG)
+<img src="https://github.com/guilhermevialle/Data-Validate/blob/main/Validate%20Data/Screenshots/capture3.PNG" width="360px">
 
 ------------
 
