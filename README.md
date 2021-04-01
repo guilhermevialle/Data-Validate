@@ -6,9 +6,8 @@
 ### Features
 
 - Simple
-- Cool Design and Animation
 - Minimalist
-- Functional for any cases
+- Functional
 
 ### Preview
 - #### Interface
